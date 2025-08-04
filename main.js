@@ -5,5 +5,7 @@ function calcularSoma(event) {
     const num2 = document.getElementById("segundo").valueAsNumber
 
     const soma = num1 + num2
-    const p  = document.getElementById("resultado")
+    
+    const paragrafo = document.getElementById("resultado")
+   paragrafo.innerHTML = `Resultado: ${soma}`
 }
